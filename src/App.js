@@ -1,7 +1,10 @@
 import React from 'react';
 import './App.css';
+import YesNoContainer from './Containers/YesNoContainer';
+// import YesNoContainer from './Containers/YesNoContainer';
+
 function App() {
-  return <h1>You Can Do This!</h1>;
+  return <YesNoContainer />;
 }
 
 export default App;
